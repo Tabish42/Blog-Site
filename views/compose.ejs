@@ -1,0 +1,14 @@
+<%-include("partials/header")-%>
+<h1>Compose</h1>
+
+<form method="post" action="/compose">
+    <label for="title" class="form-label">Title</label>
+    <input type="text" name = "title" class="form-control"s>
+    <label for="content" class="form-label">Post</label>
+    <textarea class="form-control mb-1" name="content" rows="4" cols="50">At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+        </textarea>
+    <button class="btn btn-primary" type="submit" name="Publish" value="newContent">Publish</button>
+  
+</form>
+
+<%-include("partials/footer")-%>
